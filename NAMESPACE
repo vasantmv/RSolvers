@@ -1,0 +1,3 @@
+# export(rsolve)
+# importFrom(Rcpp, sourceCpp)
+# useDynLib(RSolvers, .registration = TRUE)
