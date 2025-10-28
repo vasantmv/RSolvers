@@ -1,7 +1,11 @@
 Package: RSolvers
+
 Title: Universal Open-Source Solver Interface (LP/MILP/QP/QCQP/NLP/MINLP)
+
 Version: 0.9-0
+
 Authors@R: "Vasant Mugada", email = "vasantmv@outlook.com", role = c("aut", "cre"))
+
 Description: An Alternative to Dirk Schumacher's repository for rcbc that automatically picks the
   best available solver (CBC, HiGHS, SCIP, Ipopt, Bonmin, Couenne …)
   and exposes linear, quadratic and general non-linear capabilities.
