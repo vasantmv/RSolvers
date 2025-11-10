@@ -3,7 +3,7 @@ Title: Universal Open-Source Solver Interface (LP/MILP/QP/QCQP/NLP/MINLP)
 
 Version: 0.9-0
 
-Authors: "Vasant Mugada", email = "vasantmv@outlook.com"
+Authors: Vasant Mugada, email = "vasantmv@outlook.com"
 
 Description: An Alternative to Dirk Schumacher's repository for rcbc that automatically picks the
   best available solver (CBC, HiGHS, SCIP, Ipopt, Bonmin, Couenne …)
