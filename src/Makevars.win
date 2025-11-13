@@ -1,0 +1,7 @@
+PKG_CXXFLAGS = -I"${RTOOLS42_HOME}/include"
+PKG_LIBS     = -L"${RTOOLS42_HOME}/lib" -lcbc -lhighs -lscip -lipopt
+
+# Note: For Windows, install solvers via:
+# pacman -S mingw-w64-x86_64-cbc
+# pacman -S mingw-w64-x86_64-coin-or-cbc
+# Adjust paths as needed for your Rtools installation
