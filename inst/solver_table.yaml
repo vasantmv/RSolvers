@@ -1,0 +1,46 @@
+solvers:
+  highs:
+    priority: 1
+    types:
+      - LP
+      - MILP
+      - QP
+      - QCQP
+    description: "High-performance open-source solver for linear and quadratic programming"
+
+  cbc:
+    priority: 2
+    types:
+      - LP
+      - MILP
+    description: "COIN-OR Branch-and-Cut solver for mixed-integer linear programming"
+
+  scip:
+    priority: 3
+    types:
+      - LP
+      - MILP
+      - QP
+      - QCQP
+      - MINLP
+      - NLP
+    description: "SCIP optimization suite for mixed-integer nonlinear programming"
+
+  ipopt:
+    priority: 4
+    types:
+      - LP
+      - NLP
+    description: "Interior Point Optimizer for large-scale nonlinear optimization"
+
+  bonmin:
+    priority: 5
+    types:
+      - MINLP
+    description: "Basic Open-source Nonlinear Mixed Integer programming"
+
+  couenne:
+    priority: 6
+    types:
+      - MINLP
+    description: "Convex Over and Under ENvelopes for Nonlinear Estimation"
